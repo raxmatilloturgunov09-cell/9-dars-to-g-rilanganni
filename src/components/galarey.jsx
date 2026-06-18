@@ -25,18 +25,11 @@ import rasm6 from "../assets/imgs/rasm6.jpg";
 import rasm7 from "../assets/imgs/rasm7.jpg";
 
 export const galleryData = [
-  {
+ {
     id: 1,
     title: "Audi RS7",
-    image: audi2,
-    category: "Cars",
-    author: "John Carter",
-    createdAt: "2025-01-12",
-    description:
-      "Audi RS7 zamonaviy sportback avtomobillar orasida eng mashhur modellardan biri hisoblanadi. Ushbu model kuchli dvigatel, premium salon va ilg'or texnologiyalar bilan jihozlangan. Dinamik dizayni va yuqori tezlikdagi imkoniyatlari uni avtomobil ixlosmandlari orasida alohida o'ringa ega qiladi.",
-    liked: false,
-    downloaded: false,
-    featured: true,
+    image: "/assets/imgs/audi2.jpg", // Import qilinmaydi, to'g'ri public'dan o'qiydi
+    category: "Cars"
   },
 
   {
